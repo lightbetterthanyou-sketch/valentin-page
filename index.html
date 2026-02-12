@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pour toi, mon amour ❤️</title>
+    <style>
+        body {
+            background: linear-gradient(45deg, #ff69b4, #ffb6c1); /* Fond rose dégradé */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            color: white;
+        }
+        .hearts {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            overflow: hidden;
+        }
+        .heart {
+            position: absolute;
+            color: #ff1493;
+            font-size: 20px;
+            animation: float 6s infinite linear;
+        }
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); }
+            100% { transform: translateY(-100vh) rotate(360deg); }
+        }
+        img {
+            max-width: 80%;
+            height: auto;
+            border: 5px solid white;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hearts">
+        <!-- Des cœurs qui flottent -->
+        <div class="heart" style="left: 10%; animation-delay: 0s;">❤️</div>
+        <div class="heart" style="left: 20%; animation-delay: 1s;">💖</div>
+        <div class="heart" style="left: 30%; animation-delay: 2s;">❤️</div>
+        <div class="heart" style="left: 40%; animation-delay: 3s;">💕</div>
+        <div class="heart" style="left: 50%; animation-delay: 4s;">❤️</div>
+        <div class="heart" style="left: 60%; animation-delay: 5s;">💖</div>
+        <div class="heart" style="left: 70%; animation-delay: 6s;">❤️</div>
+        <div class="heart" style="left: 80%; animation-delay: 7s;">💕</div>
+        <div class="heart" style="left: 90%; animation-delay: 8s;">❤️</div>
+    </div>
+    <h1>Joyeuse Saint-Valentin, mon amour ! ❤️</h1>
+    <img src=https://imgur.com/a/zxlDf6F alt="Mon image pour toi">
+</body>
+</html>
